@@ -1,4 +1,4 @@
-Quizinity
+Quizinity\n
 Quizinity is a simple web-based quiz application that allows users to test their knowledge in various categories such as sports, politics, general trivia, movies, web development, food, and riddles.
 
 Features
