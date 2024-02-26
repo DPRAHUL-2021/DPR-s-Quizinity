@@ -1,0 +1,205 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body {
+    background-color: #003049;
+    /* background-image: linear-gradient(to left, #30cfd0 0%, #330867 100%); */
+}
+
+.app {
+    background-color: #fdf0d5;
+    /* background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%); */
+    width: 90%;
+    max-width: 600px;
+    margin: 100px auto 0px;
+    border-radius: 10px;
+    padding: 30px;
+}
+
+.app > h1 {
+    font-size: 34px;
+    padding: 10px;
+    font-weight: 600;
+    color: #003049;
+    text-align: center;
+    border-bottom: 1.5px solid #003049;
+    margin-bottom: 10px;
+}
+
+#nameHolder,
+#selectCategory {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    background: #ffffff;
+    color: #003049;
+    border: 1px solid #222;
+    border-radius: 5px;
+    font-size: 16px;
+    text-align: left;
+}
+
+#selectCategory {
+    margin-top: 3px;
+}
+
+#enterButton {
+    width: 150px;
+    padding: 10px;
+    margin: 15px auto 0;
+    font-size: 18px;
+    border: 0;
+    font-weight: 500;
+    background-color: #003049;
+    color: #ffffff;
+    cursor: pointer;
+    border-radius: 5px;
+    display: block;
+}
+
+#enterButton:hover {
+    transform: scale(1.05);
+}
+
+#quiz > h2 {
+    font-size: 25px;
+    margin: 10px 0;
+    padding: 5px;
+    color: #003049;
+}
+
+.btn {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    background: #ffffff;
+    color: #003049;
+    border: 1px solid #222;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: left;
+    transition: all 0.3s;
+}
+
+.btn:hover:not(:disabled) {
+    color: #ffffff;
+    background: #003049;
+}
+
+.btn:disabled {
+    cursor: not-allowed;
+}
+
+#next {
+    width: 150px;
+    padding: 10px;
+    margin: 15px auto 0;
+    font-size: 18px;
+    border: 0;
+    font-weight: 500;
+    background-color: #003049;
+    color: #ffffff;
+    cursor: pointer;
+    border-radius: 5px;
+    display: block;
+}
+#next:hover {
+    transform: scale(1.05);
+}
+
+.down-buttons{
+    display: flex;
+}
+
+
+.correct {
+    background: #9aeabc;
+}
+
+.incorrect {
+    background: #ff9393;
+}
+
+#quiz {
+    display: none;
+}
+
+.msg {
+    display: none;
+}
+
+.msg-styling {
+    font-size: 30px;
+    font-weight: 450;
+    margin: 10px 0 0 0;
+    padding: 5px;
+    color: #003049;
+    text-align: center;
+}
+
+
+/* Responsive Details */
+/* Media Queries for iPhone Models */
+@media only screen and (min-width: 414px) and (max-width: 736px) {
+    /* iPhone 8 Plus and iPhone XR */
+    .app {
+        width: 90%;
+        max-width: 400px;
+    }
+}
+
+@media only screen and (min-width: 428px) and (max-width: 926px) {
+    /* iPhone 12 and iPhone 13 Pro Max */
+    .app {
+        width: 90%;
+        max-width: 450px;
+    }
+}
+
+@media only screen and (min-width: 428px) and (max-width: 968px) {
+    /* iPhone 14 */
+    .app {
+        width: 90%;
+        max-width: 480px;
+    }
+}
+
+@media only screen and (min-width: 428px) and (max-width: 1028px) {
+    /* iPhone 15 */
+    .app {
+        width: 90%;
+        max-width: 500px;
+    }
+}
+
+@media only screen and (min-width: 411px) and (max-width: 781px) {
+    /* OnePlus 7 to 8T and Samsung Galaxy A70 */
+    .app {
+        width: 90%;
+        max-width: 420px;
+    }
+}
+
+@media only screen and (min-width: 411px) and (max-width: 811px) {
+    /* OnePlus 9 to 9 Pro and Samsung Galaxy A70s */
+    .app {
+        width: 90%;
+        max-width: 450px;
+    }
+}
+
+@media only screen and (min-width: 411px) and (max-width: 841px) {
+    /* OnePlus 9R to 12 series */
+    .app {
+        width: 90%;
+        max-width: 480px;
+    }
+}
